@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ProvenMart Analysis</title>
+<style>
+  :root{--app:#F7F8FA;--card:#FFFFFF;--line:#E8EAED;--ink:#111827;--body:#1F2937;--muted:#6B7280;--brand:#4E79A7}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--app);color:var(--body);
+       font:400 15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;
+       -webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:120px 28px 80px}
+  h1{margin:0 0 10px;font-size:34px;line-height:1.2;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+  .sub{margin:0 0 40px;font-size:16px;color:var(--muted)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:28px 30px}
+  .card p{margin:0 0 14px;color:var(--body)}
+  .card p:last-child{margin-bottom:0}
+  a.go{display:inline-block;margin-top:22px;padding:11px 20px;background:var(--brand);color:#fff;
+       text-decoration:none;border-radius:6px;font-weight:500;font-size:15px}
+  a.go:hover{background:#436C93}
+  dl{margin:0;display:grid;grid-template-columns:96px 1fr;gap:10px 16px;font-size:14px}
+  dt{color:var(--muted)}
+  dd{margin:0;color:var(--ink);font-variant-numeric:tabular-nums}
+  footer{margin-top:36px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>ProvenMart Analysis</h1>
+  <p class="sub">多平台内容分析 · 交互演示</p>
+
+  <div class="card">
+    <dl>
+      <dt>内容</dt><dd>平台总览、账号与排期、单条内容、内容分类、报告与下一轮</dd>
+      <dt>范围</dt><dd>8 个媒体平台 · 12 个分析模块</dd>
+      <dt>说明</dt><dd>界面为设计稿，数据为示意数据，不代表已上线能力</dd>
+    </dl>
+    <a class="go" href="./provenmart-analysis/">打开交互演示</a>
+  </div>
+
+  <footer>可点击导航切换模块、切换平台、悬停查看图表数值、点表头排序、点行进详情。</footer>
+</div>
+</body>
+</html>
